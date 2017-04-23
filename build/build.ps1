@@ -1,5 +1,5 @@
 Param(
-  [string]$suffix = $env:PrereleaseTag
+  [string]$suffix
 )
 
 # nuget.exe pack
