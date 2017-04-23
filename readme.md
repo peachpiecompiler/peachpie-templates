@@ -26,9 +26,9 @@ This repository contains various `dotnet` project templates to be used for creat
     - [What is required for a peachpie project](http://www.peachpie.io/2017/04/msbuild-netcoreapp1-1.html)
 
 ### Building & testing
-- Invoke `.\build.ps1`
-  - Packages all templates into a nuget package (see `/out/Peachpie.Templates.x.y.z.nupkg`)
-  - Installs the the templates package to current `.templateengine`  cache
-  - Tries to create a project from each one, restore it, and build it
+- Invoke `.\build.ps1` which calls a [build](https://github.com/peachpiecompiler/peachpie-templates/tree/master/build/build.ps1) (1)  and a [test](https://github.com/peachpiecompiler/peachpie-templates/tree/master/tests/test.ps1) (2) script
+  - 1: Packages all templates into a nuget package (see `/out/Peachpie.Templates.x.y.z.nupkg`)
+  - 2: Installs the the templates package to current `.templateengine`  cache
+  - 2: Tries to create a project from each one, restore it, and build it
 - After invoking the build script your template should be listed among `dotnet new -all`
 
