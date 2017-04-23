@@ -3,10 +3,9 @@
   "classifications": [ "Console" ],
   "name": "Peachpie console application",
   "identity": "Peachpie.ConsoleApp",
-  "shortName": "peachpie-console",
-
+  "shortName": "peachpie-console",  
+  "sourceName": "MyTemplate",
   "tags": {
     "language": "PHP"
   }
-
 }

@@ -4,9 +4,8 @@
   "name": "Peachpie web application",
   "identity": "Peachpie.WebApp",
   "shortName": "peachpie-web",
-
+  "sourceName": "MyTemplate",
   "tags": {
     "language": "PHP"
   }
-
 }
