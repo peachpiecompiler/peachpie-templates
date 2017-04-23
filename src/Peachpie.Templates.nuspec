@@ -3,8 +3,8 @@
     <metadata>
         <id>Peachpie.Templates</id>
         <version>0.1.0</version>
-        <description>Templates for PHP apps on .NET powered by Peachpie compiler.</description>
-        <authors>Peachpie</authors>
+        <description>Templates of PHP projects for .NET platform using Peachpie Compiler.</description>
+        <authors>Peachpie, Petr Houska</authors>
         <language>en-US</language>
         <projectUrl>https://github.com/iolevel/peachpie</projectUrl>
         <licenseUrl>https://github.com/iolevel/peachpie/blob/master/LICENSE.txt</licenseUrl>
