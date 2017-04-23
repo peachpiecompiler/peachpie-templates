@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+    <metadata>
+        <id>Peachpie.Templates</id>
+        <version>0.1.0</version>
+        <description>Templates for PHP apps on .NET powered by Peachpie compiler.</description>
+        <authors>Peachpie</authors>
+        <language>en-US</language>
+        <projectUrl>https://github.com/iolevel/peachpie</projectUrl>
+        <licenseUrl>https://github.com/iolevel/peachpie/blob/master/LICENSE.txt</licenseUrl>
+        <copyright>Copyright 2017. All right Reserved.</copyright>
+        <requireLicenseAcceptance>true</requireLicenseAcceptance>
+        <packageTypes>
+            <packageType name="Template" />
+        </packageTypes>
+    </metadata>
+</package>

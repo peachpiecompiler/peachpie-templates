@@ -1,0 +1,11 @@
+{
+  "author": "Peachpie",
+  "classifications": [ "Web", "Empty" ],
+  "name": "Peachpie web application",
+  "identity": "Peachpie.Templates.WebApp",
+  "shortName": "peachpie-web",
+  "sourceName": "MyTemplate",
+  "tags": {
+    "language": "PHP"
+  }
+}
