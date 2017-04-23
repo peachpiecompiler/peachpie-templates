@@ -1,0 +1,12 @@
+{
+  "author": "Peachpie",
+  "classifications": [ "Console" ],
+  "name": "Peachpie console application",
+  "identity": "Peachpie.ConsoleApp",
+  "shortName": "peachpie-console",
+
+  "tags": {
+    "language": "PHP"
+  }
+
+}

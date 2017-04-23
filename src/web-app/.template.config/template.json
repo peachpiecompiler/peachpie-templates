@@ -1,0 +1,12 @@
+{
+  "author": "Peachpie",
+  "classifications": [ "Web", "Empty" ],
+  "name": "Peachpie web application",
+  "identity": "Peachpie.WebApp",
+  "shortName": "peachpie-web",
+
+  "tags": {
+    "language": "PHP"
+  }
+
+}
