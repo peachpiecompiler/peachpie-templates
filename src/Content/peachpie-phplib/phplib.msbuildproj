@@ -2,7 +2,7 @@
 
   <PropertyGroup>
     <OutputType>Library</OutputType>
-    <TargetFramework>netstandard1.5</TargetFramework>
+    <TargetFrameworks>netstandard1.5;net46</TargetFrameworks>
     <Description>.NET library in PHP</Description>
   </PropertyGroup>
 
