@@ -1,6 +1,7 @@
 <?php
 
-function main() {
+function main()
+{
     echo "Hello .NET World!";    
 }
 

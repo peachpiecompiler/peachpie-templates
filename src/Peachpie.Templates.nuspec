@@ -6,8 +6,8 @@
         <description>Templates of PHP projects for .NET platform using Peachpie Compiler.</description>
         <authors>Peachpie, Petr Houska</authors>
         <language>en-US</language>
-        <projectUrl>https://github.com/iolevel/peachpie</projectUrl>
-        <licenseUrl>https://github.com/iolevel/peachpie/blob/master/LICENSE.txt</licenseUrl>
+        <projectUrl>https://github.com/peachpiecompiler/peachpie</projectUrl>
+        <licenseUrl>https://github.com/peachpiecompiler/peachpie/blob/master/LICENSE.txt</licenseUrl>
         <copyright>Copyright 2017. All right Reserved.</copyright>
         <requireLicenseAcceptance>true</requireLicenseAcceptance>
         <packageTypes>

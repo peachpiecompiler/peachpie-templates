@@ -4,7 +4,8 @@
   "name": "Peachpie web application",
   "identity": "Peachpie.Templates.WebApp",
   "shortName": "peachpie-web",
-  "sourceName": "MyTemplate", // .NET CLI 1.x workaround (https://github.com/dotnet/templating/issues/650)
+  "sourceName": "MyWebsite1",
+  "preferNameDirectory" : "true",
   "groupIdentity": "Peachpie.Templates.WebApp", // .NET CLI 1.x workaround (https://github.com/dotnet/templating/issues/649)
   "tags": {
     "language": "PHP"
