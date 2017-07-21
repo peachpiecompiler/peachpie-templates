@@ -2,7 +2,12 @@
 
   <PropertyGroup>
     <OutputType>Library</OutputType>
-    <TargetFramework>netcoreapp1.1</TargetFramework>
+    <TargetFrameworks>netstandard1.6;net46</TargetFrameworks>
+    <Description>.NET class library in PHP</Description>
+	<AssemblyName>PhpLib1</AssemblyName>
+    <PackageId>PhpLib1</PackageId>
+    <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+	<VersionSuffix>prerelease</VersionSuffix><!-- we specify version suffix to make this package a pre-release version - this is mandatory since we still have a pre-release versions of dependencies -->
   </PropertyGroup>
 
   <ItemGroup>

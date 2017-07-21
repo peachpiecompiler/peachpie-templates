@@ -1,11 +1,26 @@
 using System;
 using Microsoft.AspNetCore.Builder;
+using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.DependencyInjection;
 using Peachpie.Web;
 
-namespace peachserver
+namespace MyWebsite1.Server
 {
-    class Startup
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            var host = new WebHostBuilder()
+                .UseKestrel()
+                .UseUrls("http://*:5004/")
+                .UseStartup<Startup>()
+                .Build();
+
+            host.Run();
+        }
+    }
+	
+	class Startup
     {
         public void ConfigureServices(IServiceCollection services)
         {
@@ -23,7 +38,7 @@ namespace peachserver
         {
             app.UseSession();
 
-            app.UsePhp();
+            app.UsePhp(new PhpRequestOptions(scriptAssemblyName: "MyWebsite1"));
             app.UseDefaultFiles();
             app.UseStaticFiles();
         }
