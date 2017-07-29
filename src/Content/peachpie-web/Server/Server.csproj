@@ -14,7 +14,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\MyWebsite1\MyWebsite1.msbuildproj" />
+    <ProjectReference Include="..\Website\Website.msbuildproj" />
   </ItemGroup>
 
 </Project>

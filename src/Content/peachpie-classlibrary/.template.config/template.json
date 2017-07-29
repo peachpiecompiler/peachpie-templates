@@ -4,7 +4,7 @@
   "name": "Peachpie Class library",
   "identity": "Peachpie.Templates.ClassLibrary",
   "shortName": "peachpie-classlibrary",
-  "sourceName": "PhpLib1",
+  "sourceName": "PhpLib.1",
   "preferNameDirectory" : "true",
   "groupIdentity": "Peachpie.Templates.ClassLibrary", // .NET CLI 1.x workaround (https://github.com/dotnet/templating/issues/649)
   "tags": {
