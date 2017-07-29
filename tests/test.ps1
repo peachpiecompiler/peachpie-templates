@@ -27,4 +27,5 @@ foreach($template in $templates){
 Set-Location "$PSScriptRoot/.."
 Remove-Item "./tmp" -Force -Recurse
 
+Write-Output "Number of errored templates: $error"
 exit $error
