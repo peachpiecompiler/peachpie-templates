@@ -4,7 +4,7 @@
   "name": "Peachpie console application",
   "identity": "Peachpie.Templates.ConsoleApp",
   "shortName": "peachpie-console",  
-  "sourceName": "PhpConsole1",
+  "sourceName": "PhpConsole.1",
   "preferNameDirectory" : "true",
   "groupIdentity": "Peachpie.Templates.ConsoleApp", // .NET CLI 1.x workaround (https://github.com/dotnet/templating/issues/649)
   "tags": {

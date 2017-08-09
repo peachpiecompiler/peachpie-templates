@@ -2,7 +2,7 @@
 
 function main()
 {
-    echo "Hello .NET World!";    
+    echo "PhpConsole.1 says \"Hello .NET World!\"";    
 }
 
 main();

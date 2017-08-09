@@ -4,7 +4,7 @@ using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.DependencyInjection;
 using Peachpie.Web;
 
-namespace MyWebsite1.Server
+namespace MyWebsite.1.Server
 {
     class Program
     {
@@ -38,7 +38,7 @@ namespace MyWebsite1.Server
         {
             app.UseSession();
 
-            app.UsePhp(new PhpRequestOptions(scriptAssemblyName: "MyWebsite1"));
+            app.UsePhp(new PhpRequestOptions(scriptAssemblyName: "MyWebsite.1"));
             app.UseDefaultFiles();
             app.UseStaticFiles();
         }

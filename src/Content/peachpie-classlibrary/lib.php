@@ -6,7 +6,7 @@ namespace Library {
 	class Greeter {
 		/** A method that outputs hello. */
 		public function Greet(){
-			echo "Hello world!";
+			echo "PhpLib.1 says \"Hello world!\"";
 		}
 	}
 }
