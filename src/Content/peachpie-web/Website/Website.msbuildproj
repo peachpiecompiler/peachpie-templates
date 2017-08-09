@@ -3,6 +3,7 @@
   <PropertyGroup>
     <OutputType>Library</OutputType>
     <TargetFramework>netstandard1.6</TargetFramework>
+	<AssemblyName>MyWebsite.1</AssemblyName>
   </PropertyGroup>
 
   <ItemGroup>
