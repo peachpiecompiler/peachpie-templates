@@ -4,7 +4,7 @@
     <OutputType>Library</OutputType>
     <TargetFrameworks>netstandard1.6;net46</TargetFrameworks>
     <Description>.NET class library in PHP</Description>
-	<AssemblyName>PhpLib1</AssemblyName>
+    <AssemblyName>PhpLib1</AssemblyName>
     <PackageId>PhpLib1</PackageId>
     <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
 	<VersionSuffix>prerelease</VersionSuffix><!-- we specify version suffix to make this package a pre-release version - this is mandatory since we still have a pre-release versions of dependencies -->
@@ -18,11 +18,4 @@
     <DotNetCliToolReference Include="Peachpie.Compiler.Tools" Version="0.8.0-*" />
     <PackageReference Include="Peachpie.NET.Sdk" Version="0.8.0-*" PrivateAssets="Build" />
   </ItemGroup>
-  
-  <!-- A temporary solution, import C# Visual Studio design time targets in order to be able to load the project in Visual Studio -->
-  <PropertyGroup>
-    <CSharpDesignTimeTargetsPath Condition="'$(CSharpDesignTimeTargetsPath)'==''">$(MSBuildExtensionsPath)\Microsoft\VisualStudio\Managed\Microsoft.CSharp.DesignTime.targets</CSharpDesignTimeTargetsPath>
-  </PropertyGroup>
-  <Import Project="$(CSharpDesignTimeTargetsPath)" Condition="'$(CSharpDesignTimeTargetsPath)' != '' and Exists('$(CSharpDesignTimeTargetsPath)')" />
-
 </Project>
