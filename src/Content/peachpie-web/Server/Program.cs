@@ -30,7 +30,7 @@ namespace MyWebsite.1.Server
             services.AddSession(options =>
             {
                 options.IdleTimeout = TimeSpan.FromMinutes(30);
-                options.CookieHttpOnly = true;
+                options.Cookie.HttpOnly = true;
             });
         }
 
