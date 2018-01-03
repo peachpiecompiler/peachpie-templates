@@ -3,7 +3,7 @@
   "classifications": [ "Web", "Empty" ],
   "name": "Peachpie web application",
   "identity": "Peachpie.Templates.WebApp",
-  "shortName": "peachpie-web",
+  "shortName": "web",
   "sourceName": "MyWebsite.1",
   "preferNameDirectory" : "true",
   "groupIdentity": "Peachpie.Templates.WebApp", // .NET CLI 1.x workaround (https://github.com/dotnet/templating/issues/649)

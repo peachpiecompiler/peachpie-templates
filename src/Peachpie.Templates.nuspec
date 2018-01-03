@@ -2,13 +2,13 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
     <metadata>
         <id>Peachpie.Templates</id>
-        <version>0.8.0</version>
+        <version>0.9.0</version>
         <description>Templates of PHP projects for .NET platform using Peachpie Compiler.</description>
         <authors>Peachpie, Petr Houska</authors>
         <language>en-US</language>
         <projectUrl>https://github.com/peachpiecompiler/peachpie</projectUrl>
         <licenseUrl>https://github.com/peachpiecompiler/peachpie/blob/master/LICENSE.txt</licenseUrl>
-        <copyright>Copyright 2017. All right Reserved.</copyright>
+        <copyright>Copyright 2018. All right Reserved.</copyright>
         <requireLicenseAcceptance>true</requireLicenseAcceptance>
         <packageTypes>
             <packageType name="Template" />
