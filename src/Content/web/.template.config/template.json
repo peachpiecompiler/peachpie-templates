@@ -1,7 +1,7 @@
 {
   "author": "Peachpie",
   "classifications": [ "Web", "Empty" ],
-  "name": "Peachpie web application",
+  "name": "ASP.NET Core Empty",
   "identity": "Peachpie.Templates.WebApp",
   "shortName": "web",
   "sourceName": "MyWebsite.1",

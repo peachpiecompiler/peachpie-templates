@@ -1,7 +1,7 @@
 {
   "author": "Peachpie",
-  "classifications": [ "Console" ],
-  "name": "Peachpie console application",
+  "classifications": [ "Common", "Console" ],
+  "name": "Console Application",
   "identity": "Peachpie.Templates.ConsoleApp",
   "shortName": "console",  
   "sourceName": "PhpConsole.1",
