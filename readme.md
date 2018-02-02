@@ -4,7 +4,7 @@ This repository contains various `dotnet` project templates to be used for creat
 
 ## Using templates
 0. Install peachpie templates via: `dotnet new -i "Peachpie.Templates::*"` 
-1. Create a project based on chosen template e.g.: `dotnet new peachpie-console`
+1. Create a project based on chosen template e.g.: `dotnet new console -lang PHP`
 2. Restore packages for the newly created project: `dotnet restore`
 3. Run the project: `dotnet run`
 
