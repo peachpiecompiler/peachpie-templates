@@ -1,4 +1,5 @@
 using System;
+using Microsoft.AspNetCore;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.DependencyInjection;
@@ -10,10 +11,9 @@ namespace MyWebsite.1.Server
     {
         static void Main(string[] args)
         {
-            var host = new WebHostBuilder()
-                .UseKestrel()
-                .UseUrls("http://*:5004/")
+            var host = WebHost.CreateDefaultBuilder(args)
                 .UseStartup<Startup>()
+                .UseUrls("http://*:5004/")
                 .Build();
 
             host.Run();
