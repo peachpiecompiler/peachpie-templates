@@ -8,6 +8,7 @@
 
   <ItemGroup>
     <Compile Include="**/*.php" />
+    <None Include="**/*.php" />
   </ItemGroup>
 
   <ItemGroup>
