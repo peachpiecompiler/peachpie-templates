@@ -4,7 +4,7 @@ Template for a dotnet class library written in PHP. Code from all .php files get
 
 ### How to run
 1. Install peachpie templates
-2. `dotnet new peachpie-classlibrary`
+2. `dotnet new classlib -lang PHP`
 3. `dotnet restore`
 4.  Modify `lib.php` (optional)
 5. `dotnet build`
