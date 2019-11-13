@@ -1,12 +1,12 @@
-<Project Sdk="Peachpie.NET.Sdk/0.9.46">
+<Project Sdk="Peachpie.NET.Sdk/0.9.600">
 
   <PropertyGroup>
     <OutputType>Library</OutputType>
     <TargetFramework>netstandard2.0</TargetFramework>
     <Description>.NET class library in PHP</Description>
     <AssemblyName>PhpLib1</AssemblyName>
-    <PackageId>PhpLib1</PackageId>
     <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+    <GenerateDocumentationFile>true</GenerateDocumentationFile>
   </PropertyGroup>
 
   <ItemGroup>

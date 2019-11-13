@@ -2,15 +2,11 @@
 
   <PropertyGroup>
     <OutputType>Exe</OutputType>
-    <TargetFramework>netcoreapp2.1</TargetFramework>
+    <TargetFramework>netcoreapp3.0</TargetFramework>
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="Microsoft.AspNetCore.App" />
-    <PackageReference Include="Peachpie.AspNetCore.Web" Version="0.9.46" />
-  </ItemGroup>
-
-  <ItemGroup>
+    <PackageReference Include="Peachpie.AspNetCore.Web" Version="0.9.600" />
     <ProjectReference Include="..\Website\Website.msbuildproj" />
   </ItemGroup>
 

@@ -3,6 +3,7 @@ using Microsoft.AspNetCore;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.DependencyInjection;
+using Microsoft.Extensions.Hosting;
 
 namespace MyWebsite.1.Server
 {
@@ -18,8 +19,8 @@ namespace MyWebsite.1.Server
             host.Run();
         }
     }
-	
-	class Startup
+
+    class Startup
     {
         public void ConfigureServices(IServiceCollection services)
         {
@@ -33,7 +34,7 @@ namespace MyWebsite.1.Server
             });
         }
 
-        public void Configure(IApplicationBuilder app)
+        public void Configure(IApplicationBuilder app, IHostEnvironment env)
         {
             app.UseSession();
 
