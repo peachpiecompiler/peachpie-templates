@@ -2,7 +2,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
     <metadata>
         <id>Peachpie.Templates</id>
-        <version>0.9.600</version>
+        <version>0.9.800</version>
         <description>Templates of PHP projects for .NET platform using Peachpie Compiler.</description>
         <authors>Peachpie, Petr Houska</authors>
         <language>en-US</language>
