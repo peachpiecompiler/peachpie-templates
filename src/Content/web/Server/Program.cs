@@ -32,13 +32,18 @@ namespace MyWebsite.1.Server
                 options.IdleTimeout = TimeSpan.FromMinutes(30);
                 options.Cookie.HttpOnly = true;
             });
+
+            services.AddPhp(options =>
+            {
+                //
+            });
         }
 
         public void Configure(IApplicationBuilder app, IHostEnvironment env)
         {
             app.UseSession();
 
-            app.UsePhp(new PhpRequestOptions(scriptAssemblyName: "MyWebsite.1"));
+            app.UsePhp();
             app.UseDefaultFiles();
             app.UseStaticFiles();
         }
