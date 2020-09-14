@@ -4,7 +4,7 @@
         <id>Peachpie.Templates</id>
         <version>1.0.0-preview1</version>
         <description>Templates of PHP projects for .NET platform using PeachPie Compiler.</description>
-        <authors>peachpie, Petr Houska</authors>
+        <authors>peachpie, Petr Houska, Jakub Misek</authors>
         <language>en-US</language>
         <projectUrl>https://github.com/peachpiecompiler/peachpie</projectUrl>
         <licenseUrl>https://github.com/peachpiecompiler/peachpie/blob/master/LICENSE.txt</licenseUrl>
