@@ -1,13 +1,16 @@
 {
+  "$schema": "http://json.schemastore.org/template",
   "author": "Peachpie",
   "classifications": [ "Web", "Empty" ],
   "name": "ASP.NET Core Empty",
+  "description": "An empty project template for creating an ASP.NET Core application. This template does not have any content in it.",
+  "groupIdentity": "Microsoft.Web.Empty",
   "identity": "Peachpie.Templates.WebApp",
   "shortName": "web",
   "sourceName": "MyWebsite.1",
   "preferNameDirectory" : "true",
-  "groupIdentity": "Peachpie.Templates.WebApp", // .NET CLI 1.x workaround (https://github.com/dotnet/templating/issues/649)
   "tags": {
-    "language": "PHP"
+    "language": "PHP",
+    "type": "project"
   }
 }

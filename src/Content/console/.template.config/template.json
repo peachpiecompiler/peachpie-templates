@@ -1,13 +1,17 @@
 {
+  "$schema": "http://json.schemastore.org/template",
   "author": "Peachpie",
   "classifications": [ "Common", "Console" ],
   "name": "Console Application",
+  "description": "A project for creating a command-line application that can run on .NET Core on Windows, Linux and macOS",
+  "groupIdentity": "Microsoft.Common.Console",
   "identity": "Peachpie.Templates.ConsoleApp",
-  "shortName": "console",  
+  "shortName": "console",
   "sourceName": "PhpConsole.1",
+  "defaultName": "ConsoleApp1",
   "preferNameDirectory" : "true",
-  "groupIdentity": "Peachpie.Templates.ConsoleApp", // .NET CLI 1.x workaround (https://github.com/dotnet/templating/issues/649)
   "tags": {
-    "language": "PHP"
+    "language": "PHP",
+    "type": "project"
   }
 }

@@ -1,13 +1,16 @@
 {
+  "$schema": "http://json.schemastore.org/template",
   "author": "Peachpie",
   "classifications": [ "Common", "Library" ],
   "name": "Class library",
+  "description": "A project for creating a class library that targets .NET Standard or .NET Core",
+  "groupIdentity": "Microsoft.Common.Library",
   "identity": "Peachpie.Templates.ClassLibrary",
   "shortName": "classlib",
   "sourceName": "PhpLib.1",
   "preferNameDirectory" : "true",
-  "groupIdentity": "Peachpie.Templates.ClassLibrary", // .NET CLI 1.x workaround (https://github.com/dotnet/templating/issues/649)
   "tags": {
-    "language": "PHP"
+    "language": "PHP",
+    "type": "project"
   }
 }
