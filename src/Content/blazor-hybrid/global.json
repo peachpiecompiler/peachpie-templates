@@ -1,0 +1,7 @@
+  
+{
+    "msbuild-sdks": {
+        "Peachpie.NET.Sdk": "1.0.6",
+        "Peachpie.Blazor.Sdk": "1.0.11936"
+    }
+}

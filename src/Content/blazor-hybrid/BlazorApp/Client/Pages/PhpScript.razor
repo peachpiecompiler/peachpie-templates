@@ -1,0 +1,11 @@
+﻿@page "/phpstandalone.php"
+@using Peachpie.Blazor
+
+<PhpScriptProvider ContextLifetime="@SessionLifetime.Persistant" Type="@PhpScriptProviderType.Script" ScriptName="fileManagment/index.php">
+    <Navigating>
+        <p>Navigating</p>
+    </Navigating>
+    <NotFound>
+        <p>Script not found</p>
+    </NotFound>
+</PhpScriptProvider>
