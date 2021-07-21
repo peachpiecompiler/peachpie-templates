@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31019.35
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BlazorApp.Server", "BlazorApp\Server\BlazorApp.Server.csproj", "{C1022385-D1F9-4B58-87D2-37FF212F94E9}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BlazorApp.Client", "BlazorApp\Client\BlazorApp.Client.csproj", "{3B259BC3-DC88-4971-AD5F-1573061495F2}"
+EndProject
+Project("{13B669BE-BB05-4DDF-9536-439F39A36129}") = "PHPScripts", "PHPScripts\PHPScripts.msbuildproj", "{D625D308-644B-40C0-8592-A741C0C303B9}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C1022385-D1F9-4B58-87D2-37FF212F94E9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C1022385-D1F9-4B58-87D2-37FF212F94E9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C1022385-D1F9-4B58-87D2-37FF212F94E9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C1022385-D1F9-4B58-87D2-37FF212F94E9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3B259BC3-DC88-4971-AD5F-1573061495F2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3B259BC3-DC88-4971-AD5F-1573061495F2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3B259BC3-DC88-4971-AD5F-1573061495F2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3B259BC3-DC88-4971-AD5F-1573061495F2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D625D308-644B-40C0-8592-A741C0C303B9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D625D308-644B-40C0-8592-A741C0C303B9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D625D308-644B-40C0-8592-A741C0C303B9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D625D308-644B-40C0-8592-A741C0C303B9}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {29AF6906-7348-45E0-946A-516BE387F8DD}
+	EndGlobalSection
+EndGlobal

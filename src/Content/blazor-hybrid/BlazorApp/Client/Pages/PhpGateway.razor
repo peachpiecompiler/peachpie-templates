@@ -1,0 +1,17 @@
+﻿@page "/php/{*sth}"
+@using Peachpie.Blazor
+
+<PhpScriptProvider ContextLifetime="@SessionLifetime.OnNavigationChanged" Type="@PhpScriptProviderType.ScriptProvider">
+    <Navigating>
+        <p>Navigating to script</p>
+    </Navigating>
+    <NotFound>
+        <p>Script not found</p>
+    </NotFound>
+</PhpScriptProvider>
+
+@code
+{
+    [Parameter]
+    public string sth { get; set; }
+}

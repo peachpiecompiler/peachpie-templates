@@ -1,0 +1,18 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+    <UserSecretsId>4c1bd83b-5c58-4115-8895-316cb9d6b336</UserSecretsId>
+  </PropertyGroup>
+	
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Components.WebAssembly.Server" Version="5.0.3" />
+    <PackageReference Include="Microsoft.Extensions.FileProviders.Embedded" Version="5.0.3" />
+	<PackageReference Include="Peachpie.Blazor" Version="$(PeachpieBlazorVersion)" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Client\BlazorApp.Client.csproj" />
+  </ItemGroup>
+
+</Project>
