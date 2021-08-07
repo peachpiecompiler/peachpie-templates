@@ -1,0 +1,15 @@
+﻿@page "/"
+@using Peachpie.Blazor
+
+<h1>Hello, world!</h1>
+
+Welcome to your new app.
+
+<PhpScriptProvider ContextLifetime="@SessionLifetime.OnNavigationChanged" Type="@PhpScriptProviderType.Script" ScriptName="index.php">
+    <Navigating>
+        <p>Navigating</p>
+    </Navigating>
+    <NotFound>
+        <p>Script not found</p>
+    </NotFound>
+</PhpScriptProvider>
