@@ -1,0 +1,8 @@
+﻿<Project Sdk="Peachpie.Blazor.Sdk/1.0.12087">
+  <PropertyGroup>
+    <OutputType>library</OutputType>
+    <TargetFramework>net5.0</TargetFramework>
+    <ProduceReferenceAssembly>false</ProduceReferenceAssembly>
+  </PropertyGroup>
+
+</Project>
