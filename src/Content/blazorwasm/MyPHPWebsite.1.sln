@@ -3,9 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.31019.35
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BlazorApp.Server", "BlazorApp\Server\BlazorApp.Server.csproj", "{C1022385-D1F9-4B58-87D2-37FF212F94E9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BlazorApp.Server", "Server\BlazorApp.Server.csproj", "{C1022385-D1F9-4B58-87D2-37FF212F94E9}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BlazorApp.Client", "BlazorApp\Client\BlazorApp.Client.csproj", "{3B259BC3-DC88-4971-AD5F-1573061495F2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BlazorApp.Client", "Client\BlazorApp.Client.csproj", "{3B259BC3-DC88-4971-AD5F-1573061495F2}"
 EndProject
 Project("{13B669BE-BB05-4DDF-9536-439F39A36129}") = "PHPScripts", "PHPScripts\PHPScripts.msbuildproj", "{D625D308-644B-40C0-8592-A741C0C303B9}"
 EndProject
