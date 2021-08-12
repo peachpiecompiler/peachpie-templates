@@ -8,10 +8,7 @@
     <PackageReference Include="Microsoft.AspNetCore.Components.WebAssembly.Server" Version="5.0.3" />
     <PackageReference Include="Microsoft.Extensions.FileProviders.Embedded" Version="5.0.3" />
 	<PackageReference Include="Peachpie.Blazor" Version="1.0.12087" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <ProjectReference Include="..\Client\BlazorApp.Client.csproj" />
+    <ProjectReference Include="..\Client\Client.csproj" />
   </ItemGroup>
 
 </Project>
