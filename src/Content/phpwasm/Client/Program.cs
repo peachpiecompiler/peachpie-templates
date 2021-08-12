@@ -3,7 +3,7 @@ using Microsoft.Extensions.Logging;
 using Peachpie.Blazor;
 using System.Threading.Tasks;
 
-namespace BlazorApp.Client
+namespace MyPHPWebsite.1.Client
 {
     public class Program
     {

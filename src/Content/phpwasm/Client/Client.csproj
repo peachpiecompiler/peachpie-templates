@@ -1,4 +1,4 @@
-﻿<Project Sdk="Microsoft.NET.Sdk.BlazorWebAssembly">
+<Project Sdk="Microsoft.NET.Sdk.BlazorWebAssembly">
 
   <PropertyGroup>
     <TargetFramework>net5.0</TargetFramework>
@@ -9,10 +9,7 @@
     <PackageReference Include="Microsoft.AspNetCore.Components.WebAssembly.DevServer" Version="5.0.3" PrivateAssets="all" />
     <PackageReference Include="System.Net.Http.Json" Version="5.0.0" />
 	<PackageReference Include="Peachpie.Blazor" Version="1.0.12087" />
-  </ItemGroup>
-
-  <ItemGroup>   
-    <ProjectReference Include="..\..\PHPScripts\PHPScripts.msbuildproj" />
+    <ProjectReference Include="..\PHPScripts\PHPScripts.msbuildproj" />
   </ItemGroup>
 
 <ItemGroup>
