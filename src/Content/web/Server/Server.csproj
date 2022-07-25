@@ -6,7 +6,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="Peachpie.AspNetCore.Web" Version="1.0.22" />
+    <PackageReference Include="Peachpie.AspNetCore.Web" Version="1.0.23" />
     <ProjectReference Include="..\Website\Website.msbuildproj" />
   </ItemGroup>
 
