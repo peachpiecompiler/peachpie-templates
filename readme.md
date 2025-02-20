@@ -26,7 +26,6 @@ This repository contains various `dotnet` project templates to be used for creat
     - [Official documentation on template creation](https://github.com/dotnet/templating/wiki/%22Runnable-Project%22-Templates)
     - [Tutorial on MSDN](https://blogs.msdn.microsoft.com/dotnet/2017/04/02/how-to-create-your-own-templates-for-dotnet-new/)
     - [Short introduction on rehansaeed.com](http://rehansaeed.com/custom-project-templates-using-dotnet-new/)
-    - [What is required for a PeachPie project](http://www.peachpie.io/2017/04/msbuild-netcoreapp1-1.html)
 
 ### Building & testing
 
