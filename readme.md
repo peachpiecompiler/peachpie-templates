@@ -13,7 +13,7 @@ This repository contains various `dotnet` project templates to be used for creat
 
 ## Prerequisites
 
-- .NET SDK 5.0 or later
+- .NET SDK 6.0 or later
 - PowerShell (only for building)
 
 ## Contributing templates & building
