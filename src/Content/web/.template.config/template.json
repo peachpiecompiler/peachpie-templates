@@ -8,7 +8,7 @@
   "identity": "Peachpie.Templates.WebApp",
   "shortName": "web",
   "sourceName": "MyWebsite.1",
-  "preferNameDirectory" : "true",
+  "preferNameDirectory" : true,
   "tags": {
     "language": "PHP",
     "type": "project"

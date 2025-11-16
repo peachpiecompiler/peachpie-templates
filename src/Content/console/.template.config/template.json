@@ -9,7 +9,7 @@
   "shortName": "console",
   "sourceName": "PhpConsole.1",
   "defaultName": "ConsoleApp1",
-  "preferNameDirectory" : "true",
+  "preferNameDirectory" : true,
   "tags": {
     "language": "PHP",
     "type": "project"

@@ -8,7 +8,7 @@
   "identity": "Peachpie.Blazor.Templates.Web",
   "shortName": "phpwasm",
   "sourceName": "MyPHPWebsite.1",
-  "preferNameDirectory" : "true",
+  "preferNameDirectory" : true,
   "tags": {
     "language": "PHP",
     "type": "project"
