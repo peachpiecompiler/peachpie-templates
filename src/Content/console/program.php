@@ -6,3 +6,6 @@ function main()
 }
 
 main();
+
+// A script with no return is compiled as returning 1, and that value is the process exit code.
+return 0;

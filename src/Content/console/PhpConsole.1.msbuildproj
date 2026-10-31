@@ -4,7 +4,7 @@
     <OutputType>Exe</OutputType>
     <TargetFramework>net6.0</TargetFramework>
     <StartupObject>program.php</StartupObject>
-    <Description>Simpliest PHP project for .NET Core, a console application.</Description>
+    <Description>Simplest PHP project for .NET Core, a console application.</Description>
   </PropertyGroup>
 
   <ItemGroup>
